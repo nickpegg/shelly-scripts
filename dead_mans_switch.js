@@ -7,7 +7,7 @@
 let CONFIG = {
   // Turn the switch off after this many seconds. If HomeAssistant thinks the
   // house is still too cold, it will turn it back on.
-  timeout_s: 15 * 60,
+  timeout_s: 30 * 60,
   dry_run: true,
 };
 let TIMER = null;
